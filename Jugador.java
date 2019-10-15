@@ -1,7 +1,6 @@
 public class Jugador {
 private String nombre;
 private int score;
-
     public Jugador(String nombre){
         this.nombre=nombre;
         this.score=0;
