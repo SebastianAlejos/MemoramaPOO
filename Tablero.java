@@ -14,4 +14,15 @@ public class Tablero extends JPanel {
         this.setSize(300,400);  
         this.setVisible(true);  
     }
+  /*  public void mezcla(){
+		Random ran=new Random();
+		int posA;
+		Naipe tmp;
+		for(int i=0;i<this.cartas.length;i++){
+			posA=ran.nextInt(52);
+			tmp=this.cartas[i];
+			this.cartas[i]=this.cartas[posA];
+			this.cartas[posA]=tmp;
+        }*/
+    
 }
